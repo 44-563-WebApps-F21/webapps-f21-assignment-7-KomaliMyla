@@ -18,18 +18,26 @@
       background-color: rgb(26, 211, 1225);
   }
   .flex-container > div {  
-  background-color: rgb(187, 229, 241); 
+  background-color: rgb(130, 102, 231); 
   margin: 10px;  padding: 20px;  font-size: 30px;
 }
 .t:hover {
-    background-color: crimson;
+    background-color: rgb(20, 220, 170);
 }
 
 @media (max-width: 60px) { 
 	 .flex-container{
 		 flex-direction:column;
-		 background-color: green;
+		 background-color: rgb(180, 10, 95);
 	  }
 	}
 </style>
 </head>
+
+<body>
+    <span><div class="flex-container">
+    <div class="text-center">Click on the squares to search for wild life</div>   
+    <div id="tries" class="t">Number of tries is zero.</div>  
+    <div id="distance">Distance is unknown.</div>  
+    </span></div>
+    <br>
