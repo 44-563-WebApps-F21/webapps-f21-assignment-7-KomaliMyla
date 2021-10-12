@@ -67,9 +67,9 @@
   function check(index) {
       let id = ids[index];
       if (index == animalLocation) {
-          document.getElementById(id).src = "Cat1.jpg";
-      } else {
           document.getElementById(id).src = "Pile.jpg";
+      } else {
+          document.getElementById(id).src = "Cat1.jpg";
       }
       triesCount++;
       document.getElementById("tries").innerHTML = "Number of triesis " + triesCount;
