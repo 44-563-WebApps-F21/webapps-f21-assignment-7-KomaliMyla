@@ -32,14 +32,14 @@
 
 <style>
   h1 {
-      background-color: #015045;
+      background-color: #e6c486;
   }
   .default-color {
-      color: #015045;
+      color: #e6c486;
   }
   .hover:hover {
       color: white;
-      background-color: #015045 !important;
+      background-color: #e6c486 !important;
   }
   img {
       cursor: pointer;
@@ -61,15 +61,15 @@
       distanceOfAnimal = "unknown"
       document.getElementById("distance").innerHTML = "Distance is " + distanceOfAnimal;
       for (var i = 0; i < 24; i++) {
-      document.getElementById(ids[i]).src = "xmas.jpg";
+      document.getElementById(ids[i]).src = "Bush1.jpg";
   }
   }
   function check(index) {
       let id = ids[index];
       if (index == animalLocation) {
-          document.getElementById(id).src = "drama.png";
+          document.getElementById(id).src = "Cat1.png";
       } else {
-          document.getElementById(id).src = "dirt.png";
+          document.getElementById(id).src = "Pile.png";
       }
       triesCount++;
       document.getElementById("tries").innerHTML = "Number of triesis " + triesCount;
